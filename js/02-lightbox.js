@@ -14,5 +14,6 @@ gallery.innerHTML = items;
 
 var lightbox = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
+    captionDelay: 250,
 });
 console.dir(lightbox);
